@@ -4,7 +4,7 @@
 
 .photo-3 { background-image: url("../images/image2.png"); }
 
-.photo-4 { background-image: url("../images/image3.png"); }
+.photo-4 { background-image: url("../images/portfolio4.png"); }
 
 .photo-5 { background-image: url("../images/image4.png"); }
 
@@ -18,17 +18,17 @@ h1 { font-size: 40px; font-weight: 900; }
 
 p { font-size: 16px; font-family: "PT Serif", serif; }
 
-.btn { width: 240px; height: 65px; background: #6BD080; font-size: 18px; text-transform: uppercase; font-weight: 700; line-height: 50px; color: #fff; }
+.btn { width: 240px; height: 65px; background: #6BD080; font-size: 18px; text-transform: uppercase; font-weight: 700; line-height: 50px; color: #FFF; }
 
 .btn a:hover { text-decoration: none; }
 
 .main-picture { background-image: url("../images/hero4.jpg"); background-size: cover; width: 100%; height: 700px; padding: 30px 15vw; }
 
-.main-picture nav h1 { color: #fff; display: block; float: left; font-size: 30px; font-weight: 500; letter-spacing: 3px; margin-top: 0; font-family: 'Great Vibes', cursive; }
+.main-picture nav h1 { color: #FFF; display: block; float: left; font-size: 30px; font-weight: 500; letter-spacing: 3px; margin-top: 0; font-family: 'Great Vibes', cursive; }
 
 .main-picture nav li { list-style-type: none; display: block; float: left; padding: 0 10px; height: 30px; line-height: 30px; }
 
-.main-picture nav li a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 400; text-transform: uppercase; }
+.main-picture nav li a { color: #FFF; text-decoration: none; font-size: 14px; font-weight: 400; text-transform: uppercase; }
 
 .main-picture nav li:hover { background-color: #242424; }
 
@@ -36,7 +36,7 @@ p { font-size: 16px; font-family: "PT Serif", serif; }
 
 .main-picture .hero { width: 100%; height: 450px; margin-top: 50px; text-align: left; padding-top: 50px; }
 
-.main-picture .hero * { color: #fff; margin: 20px auto; }
+.main-picture .hero * { color: #FFF; margin: 20px auto; }
 
 .main-picture .hero h1 { font-weight: 100; letter-spacing: 2px; font-family: "PT Serif", serif; }
 
@@ -56,7 +56,7 @@ p { font-size: 16px; font-family: "PT Serif", serif; }
 
 .about .col .face { height: 250px; width: 250px; border-radius: 50%; margin: 20px auto; background-position: center; background-size: 100%; color: transparent; font-size: 25px; line-height: 200px; }
 
-.about .col .signature p { line-height: 0px; font-style: normal; }
+.about .col .signature p { line-height: 5px; font-style: normal; text-align: justify; text-justify: inter-word; }
 
 .about .col .signature h4 { padding-top: 15px; font-weight: 700; }
 
@@ -66,7 +66,7 @@ p { font-size: 16px; font-family: "PT Serif", serif; }
 
 .about .col .signature .col .fab:hover, .about .col .signature .col .fas:hover { line-height: 40px; border: none; color: #6BD080; -webkit-transform: scale(2); transform: scale(2); transition: -webkit-transform 0.5s 0s; transition: transform 0.5s 0s; transition: transform 0.5s 0s, -webkit-transform 0.5s 0s; }
 
-.skills { text-align: center; background-color: #222222; height: 100vh; }
+.skills { text-align: center; background-color: #222222; min-height: 100vh; }
 
 .skills h3 { font-size: 18px; font-weight: 700; }
 
@@ -88,27 +88,29 @@ p { font-size: 16px; font-family: "PT Serif", serif; }
 
 .portfolio .container .col { padding: 17px; position: relative; overflow: hidden; height: 420px; margin-bottom: 30px; }
 
-.portfolio .container .col .photo { height: 300px; z-index: 3; background-size: cover; background-position: center; width: 100%; }
+.portfolio .container .photo { height: 300px; z-index: 3; background-size: cover; background-position: center; width: 100%; }
 
-.portfolio .container .col .photo-description { text-align: center; background-color: #fff; padding: 30px 0; position: relative; z-index: 3; }
+.portfolio .container .photo-description { text-align: center; background-color: #222222; padding: 20px 0; position: relative; z-index: 3; color: #c0c0c0; border: none; }
 
-.portfolio .container .col .photo-description h4 { line-height: 0px; font-weight: 900; }
+.portfolio .container .photo-description h4 { line-height: 0px; font-weight: 900; }
 
-.portfolio .container .col .photo-description p { font-family: "PT Serif", serif; }
+.portfolio .container .photo-description p { font-family: "PT Serif", serif; }
 
-.portfolio .container .col .layer { height: 300px; z-index: 2; width: calc(100% - 34px); position: absolute; top: 250px; }
+.portfolio .container .photo-description a { text-decoration: none; font-size: 15px; color: #6BD080; margin-top: 3px; }
 
-.portfolio .container .col .layer .photo-ico { cursor: pointer; display: block; width: 70%; font-size: 8px; color: #fff; margin: 135px auto; text-align: center; visibility: hidden; }
+.portfolio .container .layer { height: 300px; z-index: 2; width: calc(100% - 34px); position: absolute; top: 250px; }
 
-.portfolio .container .col .layer .photo-ico span { font-size: 18px; border: 2px solid #6BD080; padding: 0 0 0 5px; }
+.portfolio .container .layer .photo-ico { cursor: pointer; display: block; width: 70%; font-size: 8px; color: #6BD080; margin: 135px auto; text-align: center; visibility: hidden; }
 
-.portfolio .container .col:hover .layer { top: 17px; background: rgba(0, 0, 0, 0.9); transition: top 0.5s ease-in; }
+.portfolio .container .layer .photo-ico span { font-size: 18px; border: 2px solid #6BD080; padding: 3px; }
 
-.portfolio .container .col:hover .photo-ico { visibility: visible; color: #6BD080; transition: 0.4s ease-in 0.5s; }
+.portfolio .container:hover .layer { top: 17px; background: rgba(0, 0, 0, 0.9); transition: top 0.5s ease-in; }
 
-.portfolio .container .col:hover .photo-ico a { text-decoration: none; font-size: 10px; color: #6BD080; margin-top: 20px; }
+.portfolio .container:hover .photo-ico { visibility: visible; transition: 0.4s ease-in 0.5s; }
 
-.footer { line-height: 80px; background-color: #222222; color: #fff; width: 100%; height: 80px; text-align: center; }
+.footer { line-height: 80px; background-color: #222222; color: #FFF; width: 100%; height: 80px; text-align: center; }
+
+.footer p { margin: 0; }
 
 @media (max-width: 992px) { .footer .col .row { padding: 0; }
   .about .about-picture { width: 180px; height: 180px; }
@@ -120,18 +122,23 @@ p { font-size: 16px; font-family: "PT Serif", serif; }
   .main-picture nav h1 { width: 60%; float: clear; margin: 0 20% 15px; text-align: center; }
   .main-picture nav li { width: 60%; text-align: center; float: clear; padding: 0 10px; margin: 5px 20%; border: 2px solid #242424; background-color: rgba(0, 0, 0, 0.8); }
   .main-picture nav li:hover { background-color: rgba(0, 0, 0, 0.9); }
-  .main-picture .hero { padding-top: 220px; }
+  .main-picture .hero { padding-top: 220px; text-align: center; }
   .main-picture .hero h2 { font-size: 60px; }
   .about .col p { font-size: 11px; } }
 
-@media (max-width: 560px) { .main-picture .hero h2 { font-size: 50px; }
-  .main-picture .hero h1 { font-size: 34px; }
-  .about .row:last-child { height: 200px; }
-  .about .about-picture { width: 150px; height: 150px; }
-  .about .line { height: 130px; } }
+@media (max-width: 560px) { .main-picture .hero { text-align: center; }
+  .main-picture h2 { font-size: 50px; }
+  .main-picture h1 { font-size: 34px; } }
+
+.about .row:last-child { height: 200px; }
+
+.about .about-picture { width: 150px; height: 150px; }
+
+.about .line { height: 130px; }
 
 @media (max-width: 480px) { .about .about-picture { width: 110px; height: 110px; }
   .about .line { height: 180px; width: 1px; }
   .about .col h4 { font-size: 13px; }
-  .about .col h5 { font-size: 13px; padding-top: 15px; line-height: 20px; } }
+  .about .col h5 { font-size: 13px; padding-top: 15px; line-height: 20px; }
+  .about .hero { text-align: center; } }
 /*# sourceMappingURL=style.css.map */
